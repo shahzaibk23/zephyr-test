@@ -1,0 +1,6 @@
+if BOARD_SU_NOVA
+
+config BOARD
+	default "su_nova"
+
+endif

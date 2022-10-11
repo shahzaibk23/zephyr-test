@@ -1,0 +1,6 @@
+if SOC_SU_HYDRA
+
+config SOC
+	default "su-hydra"
+
+endif

@@ -183,7 +183,7 @@
 			xlnx,num-ss-bits = <0x1>;
 			xlnx,num-transfer-bits = <0x8>;
 		};
-
+ 
 		uartlite0: uartlite@40100000 {
 			compatible = "xlnx,xps-uartlite-1.00.a";
 			interrupts = <0 0>;

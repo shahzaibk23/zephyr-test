@@ -1,0 +1,7 @@
+config SOC_SU_HYDRA
+    bool "su-hydra"
+    select 64BIT
+    select RISCV
+    select RISCV_ISA_RV64I
+    select RISCV_ISA_EXT_G
+    select RISCV_ISA_EXT_C

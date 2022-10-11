@@ -1,0 +1,22 @@
+/dts-v1/;
+
+/ {
+	chosen {
+		zephyr,console = &uartlite0;
+		zephyr,shell-uart = &uartlite0;
+		zephyr,sram = &ram0;
+	};
+
+    ram0: memory@60000000 {
+        compatible = "mmio-sram";
+        reg = <0x60000000 0x10000000>;
+    };
+
+    soc {
+        uartlite0: uartlite@88000000 {
+			compatible = "xlnx,xps-uartlite-1.00.a";
+			interrupts = <0 0>;
+			reg = <0x88000000 0x10000000>;
+		};
+    };
+};

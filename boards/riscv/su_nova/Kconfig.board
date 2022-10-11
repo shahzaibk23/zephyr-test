@@ -1,0 +1,3 @@
+config BOARD_SU_NOVA
+	bool "Board with SU Hydra SoC"
+	depends on SOC_SU_HYDRA

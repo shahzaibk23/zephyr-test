@@ -6,7 +6,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-
+ 
 #define DT_DRV_COMPAT xlnx_xps_uartlite_1_00_a
 
 #include <zephyr/device.h>
